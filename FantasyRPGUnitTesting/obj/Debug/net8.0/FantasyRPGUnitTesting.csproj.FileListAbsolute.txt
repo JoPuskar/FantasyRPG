@@ -391,3 +391,8 @@ C:\Users\JOSHIP1\OneDrive - East Tennessee State University\Fall24\Soft v&v\LABS
 C:\Users\JOSHIP1\OneDrive - East Tennessee State University\Fall24\Soft v&v\LABS\LAB4\FantasyRPG\FantasyRPGUnitTesting\obj\Debug\net8.0\FantasyRPGUnitTesting.pdb
 C:\Users\JOSHIP1\OneDrive - East Tennessee State University\Fall24\Soft v&v\LABS\LAB4\FantasyRPG\FantasyRPGUnitTesting\obj\Debug\net8.0\FantasyRPGUnitTesting.genruntimeconfig.cache
 C:\Users\JOSHIP1\OneDrive - East Tennessee State University\Fall24\Soft v&v\LABS\LAB4\FantasyRPG\FantasyRPGUnitTesting\obj\Debug\net8.0\ref\FantasyRPGUnitTesting.dll
+C:\Users\JOSHIP1\OneDrive - East Tennessee State University\Fall24\Soft v&v\LABS\LAB4\FantasyRPG\FantasyRPGUnitTesting\obj\Debug\net8.0\FantasyRPGUnitTesting.sourcelink.json
+C:\Users\JOSHIP1\OneDrive - East Tennessee State University\Fall24\Soft v&v\LABS\LAB4\FantasyRPG\FantasyRPGUnitTesting\bin\Debug\net8.0\FantasyRPGIntegrationTesting.deps.json
+C:\Users\JOSHIP1\OneDrive - East Tennessee State University\Fall24\Soft v&v\LABS\LAB4\FantasyRPG\FantasyRPGUnitTesting\bin\Debug\net8.0\FantasyRPGIntegrationTesting.runtimeconfig.json
+C:\Users\JOSHIP1\OneDrive - East Tennessee State University\Fall24\Soft v&v\LABS\LAB4\FantasyRPG\FantasyRPGUnitTesting\bin\Debug\net8.0\FantasyRPGIntegrationTesting.dll
+C:\Users\JOSHIP1\OneDrive - East Tennessee State University\Fall24\Soft v&v\LABS\LAB4\FantasyRPG\FantasyRPGUnitTesting\bin\Debug\net8.0\FantasyRPGIntegrationTesting.pdb

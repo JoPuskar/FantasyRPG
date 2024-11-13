@@ -24,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FantasyRPGIntegrationTesting\FantasyRPGIntegrationTesting.csproj" />
     <ProjectReference Include="..\FantasyRPG\FantasyRPG.csproj" />
   </ItemGroup>
 

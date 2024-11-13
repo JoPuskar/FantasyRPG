@@ -9,3 +9,4 @@ C:\Users\JOSHIP1\OneDrive - East Tennessee State University\Fall24\Soft v&v\LABS
 C:\Users\JOSHIP1\OneDrive - East Tennessee State University\Fall24\Soft v&v\LABS\LAB4\FantasyRPG\FantasyRPG\obj\Debug\net8.0\refint\FantasyRPG.dll
 C:\Users\JOSHIP1\OneDrive - East Tennessee State University\Fall24\Soft v&v\LABS\LAB4\FantasyRPG\FantasyRPG\obj\Debug\net8.0\FantasyRPG.pdb
 C:\Users\JOSHIP1\OneDrive - East Tennessee State University\Fall24\Soft v&v\LABS\LAB4\FantasyRPG\FantasyRPG\obj\Debug\net8.0\ref\FantasyRPG.dll
+C:\Users\JOSHIP1\OneDrive - East Tennessee State University\Fall24\Soft v&v\LABS\LAB4\FantasyRPG\FantasyRPG\obj\Debug\net8.0\FantasyRPG.sourcelink.json

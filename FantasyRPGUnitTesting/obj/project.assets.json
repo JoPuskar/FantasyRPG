@@ -585,6 +585,25 @@
         "runtime": {
           "bin/placeholder/FantasyRPG.dll": {}
         }
+      },
+      "FantasyRPGIntegrationTesting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FantasyRPG": "1.0.0",
+          "Microsoft.NET.Test.Sdk": "17.8.0",
+          "NSubstitute": "5.3.0",
+          "NUnit": "3.14.0",
+          "NUnit.Analyzers": "3.9.0",
+          "NUnit3TestAdapter": "4.5.0",
+          "coverlet.collector": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FantasyRPGIntegrationTesting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FantasyRPGIntegrationTesting.dll": {}
+        }
       }
     }
   },
@@ -1821,11 +1840,17 @@
       "type": "project",
       "path": "../FantasyRPG/FantasyRPG.csproj",
       "msbuildProject": "../FantasyRPG/FantasyRPG.csproj"
+    },
+    "FantasyRPGIntegrationTesting/1.0.0": {
+      "type": "project",
+      "path": "../FantasyRPGIntegrationTesting/FantasyRPGIntegrationTesting.csproj",
+      "msbuildProject": "../FantasyRPGIntegrationTesting/FantasyRPGIntegrationTesting.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "FantasyRPG >= 1.0.0",
+      "FantasyRPGIntegrationTesting >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "Microsoft.Playwright.NUnit >= 1.27.1",
       "NSubstitute >= 5.3.0",
@@ -1869,6 +1894,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\JOSHIP1\\OneDrive - East Tennessee State University\\Fall24\\Soft v&v\\LABS\\LAB4\\FantasyRPG\\FantasyRPGIntegrationTesting\\FantasyRPGIntegrationTesting.csproj": {
+              "projectPath": "C:\\Users\\JOSHIP1\\OneDrive - East Tennessee State University\\Fall24\\Soft v&v\\LABS\\LAB4\\FantasyRPG\\FantasyRPGIntegrationTesting\\FantasyRPGIntegrationTesting.csproj"
+            },
             "C:\\Users\\JOSHIP1\\OneDrive - East Tennessee State University\\Fall24\\Soft v&v\\LABS\\LAB4\\FantasyRPG\\FantasyRPG\\FantasyRPG.csproj": {
               "projectPath": "C:\\Users\\JOSHIP1\\OneDrive - East Tennessee State University\\Fall24\\Soft v&v\\LABS\\LAB4\\FantasyRPG\\FantasyRPG\\FantasyRPG.csproj"
             }

@@ -105,3 +105,4 @@ C:\Users\JOSHIP1\OneDrive - East Tennessee State University\Fall24\Soft v&v\LABS
 C:\Users\JOSHIP1\OneDrive - East Tennessee State University\Fall24\Soft v&v\LABS\LAB4\FantasyRPG\FantasyRPGIntegrationTesting\obj\Debug\net8.0\FantasyRPGIntegrationTesting.pdb
 C:\Users\JOSHIP1\OneDrive - East Tennessee State University\Fall24\Soft v&v\LABS\LAB4\FantasyRPG\FantasyRPGIntegrationTesting\obj\Debug\net8.0\FantasyRPGIntegrationTesting.genruntimeconfig.cache
 C:\Users\JOSHIP1\OneDrive - East Tennessee State University\Fall24\Soft v&v\LABS\LAB4\FantasyRPG\FantasyRPGIntegrationTesting\obj\Debug\net8.0\ref\FantasyRPGIntegrationTesting.dll
+C:\Users\JOSHIP1\OneDrive - East Tennessee State University\Fall24\Soft v&v\LABS\LAB4\FantasyRPG\FantasyRPGIntegrationTesting\obj\Debug\net8.0\FantasyRPGIntegrationTesting.sourcelink.json
