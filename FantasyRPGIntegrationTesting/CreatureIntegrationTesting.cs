@@ -20,7 +20,7 @@ namespace FantasyRPGIntegrationTesting
             };
             for (int i = 0; i < 10; i++)
             {
-                var actual = sut.InflictDamage();
+                var actual = sut.InflictDamage().Base;
                 Assert.That(actual, Is.InRange(1, 30));
             }
         }

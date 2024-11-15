@@ -1,10 +1,13 @@
 ﻿
 
+using FantasyRPGUnitTesting;
+
 namespace FantasyRPG
 {
     public class Creature
     {
-        private IRandom? _random = null;
+        protected IRandom? _random;
+        protected Damage _damage;
 
         public virtual string Race { get; protected set; } = "Unkown";
         public int Strength { get; set; }
@@ -13,16 +16,19 @@ namespace FantasyRPG
         public Creature()
         {
             _random = new RandomGenerator();
+            _damage = new();
         }
 
-        public Creature(IRandom random)
+        public Creature(IRandom random, Damage damage)
         {
             _random = random;
+            _damage = damage;
         }
 
-        public virtual int InflictDamage()
+        public virtual Damage InflictDamage()
         {
-            return _random!.Get(1, Strength);
+            _damage.Base = _random.Get(1, Strength);
+            return _damage;
 
         }
         public virtual int TakeDamage(int damage)
@@ -36,9 +42,9 @@ namespace FantasyRPG
             return damage;
         }
 
-        public object Attack(Creature Creature)
+        public int Attack(Creature Creature)
         {
-            return Creature.TakeDamage(InflictDamage());
+            return Creature.TakeDamage(InflictDamage().Total);
         }
     }
 }
