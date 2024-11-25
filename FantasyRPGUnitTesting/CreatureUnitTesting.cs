@@ -27,10 +27,10 @@ public class ACreature {
         };
         int baseDamage = sut.InflictDamage().Base;
         Assert.That(baseDamage, Is.EqualTo(25));
-    }
+    }   
 
     [Test]
-    public void Has99PercentChanceOfTakingDamange()
+    public void Has99PercentChanceOfTakingDamage()
     { 
         IRandom randomMock = Substitute.For<IRandom>();
         Damage mockDamage = Substitute.For<Damage>();
@@ -64,10 +64,10 @@ public class ACreature {
     [Test]
     public void CanAttackAnotherCreature()
     { 
-        IRandom randonMock = Substitute.For<IRandom>();
+        IRandom randomMock = Substitute.For<IRandom>();
         Damage mockDamage = Substitute.For<Damage>();
-        randonMock.Get(1, Arg.Any<int>()).Returns(1);
-        Creature sut = new(randonMock, mockDamage)
+        randomMock.Get(1, Arg.Any<int>()).Returns(1);
+        Creature sut = new(randomMock, mockDamage)
         {
             Strength = 1,
             HitPoints = 100

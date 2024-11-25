@@ -25,7 +25,7 @@ namespace FantasyRPGIntegrationTesting
             }
         }
         [Test]
-        public void Has99PercentChanceOfTakingDamange()
+        public void Has99PercentChanceOfTakingDamage()
         {
             const decimal MAX = 10000;
             Creature sut = new()

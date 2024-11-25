@@ -34,10 +34,8 @@ namespace FantasyRPGUnitTesting
             {
                 Strength = 30
             };
-            sut.InflictDamage();
+            sut.InflictDamage();    
             mockDamage.Received().Additional = baseDamage;
-
-
         }
 
     }
