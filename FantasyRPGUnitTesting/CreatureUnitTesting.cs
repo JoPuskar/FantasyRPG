@@ -45,7 +45,7 @@ public class ACreature {
         _ = sut.TakeDamage(damage);
         Assert.That(sut.HitPoints, Is.EqualTo(90));
     }
-    public void Has1PercentChanceOfNotTakingDamange()
+    public void Has1PercentChanceOfNotTakingDamage()
     {
         IRandom randomMock = Substitute.For<IRandom>();
         Damage mockDamage = Substitute.For<Damage>();

@@ -22,8 +22,10 @@ namespace FantasyRPG
         public override Damage InflictDamage()
         {
             _ = base.InflictDamage();
+
             // A Balrog can inflict base damage twice
-            _damage.Base *= 2;
+
+            _damage.Additional += _damage.Base;
             return _damage;
         }
 

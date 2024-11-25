@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyRPGUnitTesting", "Fa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyRPGIntegrationTesting", "FantasyRPGIntegrationTesting\FantasyRPGIntegrationTesting.csproj", "{8CD62E43-CC72-432A-B265-9C344115A421}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyRPGConsole", "FantasyRPGConsole\FantasyRPGConsole.csproj", "{FE209CC9-75C2-417D-83A7-6235DD6F8CD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8CD62E43-CC72-432A-B265-9C344115A421}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CD62E43-CC72-432A-B265-9C344115A421}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CD62E43-CC72-432A-B265-9C344115A421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE209CC9-75C2-417D-83A7-6235DD6F8CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE209CC9-75C2-417D-83A7-6235DD6F8CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE209CC9-75C2-417D-83A7-6235DD6F8CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE209CC9-75C2-417D-83A7-6235DD6F8CD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

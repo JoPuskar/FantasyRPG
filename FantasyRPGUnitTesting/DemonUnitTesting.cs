@@ -13,7 +13,7 @@ namespace FantasyRPGUnitTesting
     public class ADemon
     {
         [Test]
-        public void ReportsItsRaceAsHuman()
+        public void ReportsItsRaceAsDemon()
         {
             Demon sut = new();
             Assert.That(sut.Race, Is.EqualTo("Demon"));
@@ -36,18 +36,19 @@ namespace FantasyRPGUnitTesting
         }
 
         [Test]
-        public void Has75PercentChanceOfInflictingDoubleDamage()
+        public void Has75PercentChanceOfInflictingBaseDamage()
         {
-            int Base = 50;
+            int additional = 0;
             IRandom mockRandom = Substitute.For<IRandom>();
-            mockRandom.Get(1, 75).Returns(Base); // damage
+            mockRandom.Get(1, 75).Returns(additional); // damage
+            mockRandom.Get(1, 100).Returns(75); // 75% damage
             Damage mockDamage = Substitute.For<Damage>();
             Demon sut = new(mockRandom, mockDamage)
             {
                 Strength = 75
             };
             sut.InflictDamage();
-            mockDamage.Received().Base = Base;
+            mockDamage.Received().Additional = additional;
         }
     }
 }
