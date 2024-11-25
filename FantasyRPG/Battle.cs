@@ -16,17 +16,17 @@ namespace FantasyRPG
         {
             Messages.Clear();
 
-            while (creature1.HitPoints > 0 || creature2.HitPoints > 0)
+            while (creature1.HitPoints > 0 && creature2.HitPoints > 0)
             {
                 // Creature 1 attacks creature 2
                 int damageToCreature2 = creature1.Attack(creature2);
                 Messages.Add($"The {creature1.Race} deals {damageToCreature2} damage to the {creature2.Race}.");
 
-                // Check if creature2 is defeated
-                if (creature2.HitPoints < 1)
-                {
-                    break;
-                }
+                //// Check if creature2 is defeated
+                //if (creature2.HitPoints < 1)
+                //{
+                //    break;
+                //}
 
                 // Creature2 attacks creature1
                 int damageToCreature1 = creature2.Attack(creature1);
@@ -35,7 +35,7 @@ namespace FantasyRPG
 
             // Determine the result
 
-            if (creature1.HitPoints < 1 && creature2.HitPoints > 1)
+            if (creature1.HitPoints < 1 && creature2.HitPoints < 1)
             {
                 Messages.Add("The duel ends in a Tie!");
                 return 0;
@@ -46,12 +46,12 @@ namespace FantasyRPG
                 Messages.Add($"{creature2.Race} wins!");
                 return 2;
             }
-            else
+                
             {
                 Messages.Add($"{creature1.Race} wins!");
                 return 1;
-            }
-            }
+            
+            }   
         }
     }
 }
